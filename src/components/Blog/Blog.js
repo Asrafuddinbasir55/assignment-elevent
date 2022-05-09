@@ -39,33 +39,26 @@ const Blog = () => {
                     <Col md="6">
                     <h2> Differences between sql and nosql databases.??</h2>
                     <p>
-                        SQL databases represent massive communities, stable codebases, and
-                        proven standards. Multitudes of examples are posted online and experts
-                        are available to support those new to programming relational data. NoSQL
-                        technologies are being adopted quickly, but communities remain smaller
-                        and more fractured. However, many SQL languages are proprietary or
-                        associated with large single-vendors, while NoSQL communities benefit
-                        from open systems and concerted commitment to onboarding users. SQL is
-                        available to most major platforms, from operating systems to
-                        architectures and programming languages. Compatibility varies more
-                        widely for NoSQL, and dependencies need to be investigated more
-                        carefully. NoSQL vary far more across their attendant systems, so
-                        comparison can be more useful between multiple non-relational
-                        technologies vs. SQL generally. Perhaps the most recognizable SQL
-                        dialect is MySQL, an open source and free RDBMS though available through
-                        proprietary licenses as well Its use is widespread in web applications,
-                        and it is known for compatibility, support, and good performance in the
-                        average case. MySQL has also made concessions to NoSQL practitioners
-                        with features like a JSON data type, the “Document Store,” and support
-                        for sharding horizontal scaling. On the non-relational side, MongoDB is
-                        primarily a document store containing JSON-like structures and a
-                        JavaScript interface. Its known for being user-friendly less
-                        administration overhead, performant for simple queries, and flexible
-                        thanks to its NoSQL underpinnings. Great for hierarchical data storage,
-                        it also supports familiar relational concepts from indexing, to
-                        aggregation, to some measure of ACID compliance. Like MySQL, it is
-                        compatible with many platforms and programming environments, despite
-                        relative recency.
+                    Structured Query language SQL pronounced as “S-Q-L” or sometimes as
+        “See-Quel” is the standard language for dealing with Relational
+        Databases. A relational database defines relationships in the form of
+        tables. SQL programming can be effectively used to insert, search,
+        update, delete database records. That doesnt mean SQL cannot do things
+        beyond that. It can do a lot of things including, but not limited to,
+        optimizing and maintenance of databases. Relational databases like MySQL
+        Database, Oracle, Ms SQL Server, Sybase, etc. use SQL. NoSQL is a
+        non-relational DMS, that does not require a fixed schema, avoids joins,
+        and is easy to scale. NoSQL database is used for distributed data stores
+        with humongous data storage needs. NoSQL is used for Big data and
+        real-time web apps. For example companies like Twitter, Facebook, Google
+        that collect terabytes of user data every single day. NoSQL database
+        stands for “Not Only SQL” or “Not SQL.” Though a better term would NoREL
+        NoSQL caught on. Carl Strozz introduced the NoSQL concept in 1998.
+        Traditional RDBMS uses SQL syntax to store and retrieve data for further
+        insights. Instead, a NoSQL database system encompasses a wide range of
+        database technologies that can store structured, semi-structured,
+        unstructured and polymorphic data. Next, we will discuss the key diff
+        between SQL and NoSQL.
                     </p>
                     </Col>
                     <Col md="6">
