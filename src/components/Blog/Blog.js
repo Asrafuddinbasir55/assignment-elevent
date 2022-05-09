@@ -51,8 +51,6 @@ const Blog = () => {
               Relational databases like MySQL Database, Oracle, Ms SQL Server,
               Sybase, etc. use SQL. NoSQL is a non-relational DMS, that does not
               require a fixed schema, avoids joins, and is easy to scale. NoSQL
-              database is used for distributed data stores with humongous data
-              storage needs. NoSQL is used for Big data and real-time web apps.
               For example companies like Twitter, Facebook, Google that collect
               terabytes of user data every single day. NoSQL database stands for
               “Not Only SQL” or “Not SQL.” Though a better term would NoREL
@@ -76,7 +74,6 @@ const Blog = () => {
               users in a microservice architecture. JWT authentication is a
               token-based stateless authentication mechanism. It is popularly
               used as a client-side-based stateless session, this means the
-              server doesnt have to completely rely on a data store or database
               to save session information. JWTs can be encrypted, but they are
               typically encoded & signed. We will be focusing on Signed JWTs.
               The purpose of Signed JWT is not to hide the data but to ensure
