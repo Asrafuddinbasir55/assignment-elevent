@@ -18,13 +18,12 @@ const Home = () => {
           
           <Carousel fade>
             <Carousel.Item>
-                <img
+                <img 
                 className="d-block w-100"
-                src="https://ibb.co/jGPjhLb"
+                src="https://i.ibb.co/9NJjcSw/Samsung-Galaxy-A33-5-G.jpg"
                 alt="First slide"
                 />
-                
-
+            
 
             </Carousel.Item>
             <Carousel.Item>

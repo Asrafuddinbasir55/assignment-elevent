@@ -43,10 +43,7 @@ const Product2 = () => {
                                  <p>Sold : {product.sold}</p>
                                  <p>Description : {product.description.slice(0,50)}</p>
                                  <div className='text-center my-2 update-button'>
-                                {/* <Link className='p-2 bg-danger text-light' to=''onClick={() => handleDelete(product._id)}>Delete</Link>
-                                <Link to={`/product${productId}`}>
-                                    <button className='btn btn-primary'>Update</button>
-                                </Link> */}
+                                
                                 </div>
                             </div>
                         </Col>)
