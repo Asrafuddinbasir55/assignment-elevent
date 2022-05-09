@@ -22,16 +22,18 @@ const Blog = () => {
                     <Col md="6">
                     <h2>When should you use nodejs and when should you use mongodb ??</h2>
                     <p>
-                        Node.js is a Javascript-based environment that is easily understood by
-                        most of the browsers. Here, the Javascript is Server-Side instead of
-                        serving client-side. Node.js is definitely fast and it allows to explore a
-                        dynamic range of data at real-time. It allows code sharing. Node.js acts
-                        as a proxy server and allows seamless real-time data streaming. The most
-                        important reason for the rising popularity of Node.js is that the
-                        programmer can code the server-side as well as client-side using it.
-                        Node.js is an interpreted, familiar and flexible language. MongoDB allows
-                        geospatial queries and is text-search enabled. CouchDB goes another level
-                        and allows document versioning. It
+                    Node.js is based on Google's V8 JavaScript engine which is used in the
+      Chrome browser. It also includes a number of modules that provides
+      features essential for implementing web applications including networking
+      protocols such as HTTP. Third party modules, including the MongoDB driver,
+      can be installed, using the npm tool. Node.js is an asynchronous,
+      event-driven engine where the application makes a request and then
+      continues working on other useful tasks rather than stalling while it
+      waits for a response. On completion of the requested task, the application
+      is informed of the results via a callback or a promise or Observable. This
+      enables large numbers of operations to be performed in parallel essential
+      when scaling applications. MongoDB was also designed to be used
+      asynchronously and so it works well with Node.js applications.
                     </p>
                     </Col>
                     <Col md="6">
