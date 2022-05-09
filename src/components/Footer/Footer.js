@@ -11,7 +11,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// https://i.ibb.co/yXwFB5B/download.png
-// https://i.ibb.co/CmMTN1Z/images-1.png
-// https://i.ibb.co/JxhgcTm/unnamed.png
