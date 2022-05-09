@@ -4,9 +4,6 @@ import { Col, Container, Row } from "react-bootstrap";
 const Blog = () => {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col md="6">
             <h2>Difference between javascript and nodejs ??</h2>
             <p>
               NodeJS is a cross-platform and opensource Javascript runtime
@@ -19,8 +16,8 @@ const Blog = () => {
               language that uses the concept of Oops but it is based on
               prototype inheritance.
             </p>
-          </Col>
-          <Col md="6">
+        
+          
             <h2>
               When should you use nodejs and when should you use mongodb ??
             </h2>
@@ -40,8 +37,8 @@ const Blog = () => {
               be used asynchronously and so it works well with Node.js
               applications.
             </p>
-          </Col>
-          <Col md="6">
+        
+          
             <h2> Differences between sql and nosql databases.??</h2>
             <p>
               Structured Query language SQL pronounced as “S-Q-L” or sometimes
@@ -66,8 +63,8 @@ const Blog = () => {
               semi-structured, unstructured and polymorphic data. Next, we will
               discuss the key diff between SQL and NoSQL.
             </p>
-          </Col>
-          <Col md="6">
+          
+          
             <h2>What is the purpose of jwt and how does it work ??</h2>
             <p>
               JWT, or JSON Web Token, is an open standard used to share
@@ -86,9 +83,9 @@ const Blog = () => {
               the authenticity of the data. And that is why its highly
               recommended to use HTTPS with Signed JWTs.
             </p>
-          </Col>
-        </Row>
-      </Container>
+        
+    
+      
     </div>
   );
 };
