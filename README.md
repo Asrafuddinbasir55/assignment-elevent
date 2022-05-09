@@ -1,4 +1,4 @@
-* Project Name : Best SmartPhone
+* Project Name : Best Smartphone
 
 * code link cline side : https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-Asrafuddinbasir55.git
 
