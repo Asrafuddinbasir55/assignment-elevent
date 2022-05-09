@@ -151,7 +151,7 @@ const Login = () => {
 
                         <Button onChange={handleResetPassword} variant="link mt-0">Forget Password?</Button>
                     </Form.Group>
-                    <Button variant="primary ms-5 mb-5  px-4" type="submit">
+                    <Button variant="info ms-5 mb-5  px-4" type="submit">
                         {registered ? 'Login':'Register'}
                     </Button>
                     <Button onClick={signInGoogle} variant="danger  mb-5 ms-2">Google</Button>

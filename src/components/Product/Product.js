@@ -57,12 +57,10 @@ const Product = () => {
                                 <h2>Price : ${product.price}</h2>
                                 <div className='text-center my-2 update-button'>
                                     <Link className='p-2 m-1 text-light btn btn-danger' to='' onClick={() => handleDelete(product._id)}>Delete</Link>
-                                    {/* <Button onClick={() => handleDelete(product._id)}>Delete</Button> */}
-                                    
                                         <button  className='btn btn-primary' onClick={() => handleUpdate(product._id)}>Update</button>
                 
                                 </div>
-                                {/* <Link to="/addItems"><Button>ManageItem</Button></Link>  */}
+                                
                             </div>
                         </Col>)
                     }
