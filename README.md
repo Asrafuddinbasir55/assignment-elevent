@@ -5,7 +5,7 @@
 * code link server side : https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-Asrafuddinbasir55.git
 
 
-* live website : 
+* live website : https://cerulean-paletas-eea58f.netlify.app/
 
 
 * website firebase firebase hooks, bootstrap and ,react route add
