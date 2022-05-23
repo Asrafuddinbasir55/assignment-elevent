@@ -11,7 +11,7 @@
 * website firebase firebase hooks, bootstrap and ,react route add
 * website 
 
-* Components Header and Home page Invntory Login page and Myitems Product and ProductDetals page and RequreAuth Update page and hook Blog page and Footer Additems CostomLink etc
+* Components Header and Home page Invntory Login page and Myitems Product and ProductDetals page and RequreAuth Update and hook Blog page and Footer Additems CostomLink etc
 
 
 
